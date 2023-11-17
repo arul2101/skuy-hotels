@@ -9,7 +9,7 @@ import Spinner from "../components/Spinner";
 import BookingDetailBox from "../components/BookingDetailBox";
 import Button from "../components/Button";
 import BookingDetailHeader from "../components/BookingDetailHeader";
-import CheckInAction from "../components/CheckinAction";
+import CheckInAction from "../components/CheckInAction";
 import { useLayoutEffect } from "react";
 
 export default function CheckIn() {
