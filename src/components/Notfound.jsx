@@ -3,7 +3,7 @@ import { useLayoutEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 
-export default function Notfound() {
+export default function NotFound() {
   const navigate = useNavigate();
 
   useLayoutEffect(() => {
