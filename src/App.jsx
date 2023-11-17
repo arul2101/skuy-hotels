@@ -12,7 +12,7 @@ import Profile from "@/pages/Profile";
 import Bookings from "./pages/Bookings";
 import BookingDetail from "./pages/BookingDetail";
 import CheckIn from "./pages/CheckIn";
-import Notfound from "./components/notfound";
+import Notfound from "./components/NotFound";
 import CreateBooking from "./pages/CreateBooking";
 
 import ErrorFallback from "@/components/ErrorFallback";
