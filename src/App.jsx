@@ -9,11 +9,11 @@ import Cabins from "@/pages/Cabins";
 import Login from "@/pages/Login";
 import Users from "@/pages/Users";
 import Profile from "@/pages/Profile";
-import Bookings from "./pages/Bookings";
-import BookingDetail from "./pages/BookingDetail";
-import CheckIn from "./pages/CheckIn";
-import NotFound from "./components/NotFound";
-import CreateBooking from "./pages/CreateBooking";
+import Bookings from "@/pages/Bookings";
+import BookingDetail from "@/pages/BookingDetail";
+import CheckIn from "@/pages/CheckIn";
+import NotFound from "@/components/NotFound";
+import CreateBooking from "@/pages/CreateBooking";
 
 import ErrorFallback from "@/components/ErrorFallback";
 
