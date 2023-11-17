@@ -1,11 +1,19 @@
 import { useEffect, useState } from "react";
-import PropTypes from "prop-types";
-import { formatCurrency } from "../util/helper";
-import { Checkbox, Modal } from "antd";
-import { useCheckin } from "../hooks/bookings/useCheckin";
 import { useOutletContext } from "react-router-dom";
-import Button from "./Button";
+import PropTypes from "prop-types";
+
+// Antd
+import { Checkbox, Modal } from "antd";
 import { ExclamationCircleFilled } from '@ant-design/icons';
+
+// Custom Hooks
+import { useCheckin } from "../hooks/bookings/useCheckin";
+
+// Helper
+import { formatCurrency } from "../util/helper";
+
+// My Components
+import Button from "./Button";
 
 export default function CheckInAction({ booking, settings }) {
   const [addBreakfast, setAddBreakfast] = useState(false);

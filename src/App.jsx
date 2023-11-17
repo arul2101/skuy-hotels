@@ -3,6 +3,8 @@ import {
   Navigate,
   RouterProvider,
 } from "react-router-dom";
+
+// Pages
 import RootLayout from "@/layout/RootLayout";
 import Dashboard from "@/pages/Dashboard";
 import Cabins from "@/pages/Cabins";
@@ -12,8 +14,10 @@ import Profile from "@/pages/Profile";
 import Bookings from "@/pages/Bookings";
 import BookingDetail from "@/pages/BookingDetail";
 import CheckIn from "@/pages/CheckIn";
-import NotFound from "@/components/NotFound";
 import CreateBooking from "@/pages/CreateBooking";
+
+// My Components
+import NotFound from "@/components/NotFound";
 
 import ErrorFallback from "@/components/ErrorFallback";
 
