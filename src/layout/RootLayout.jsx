@@ -46,7 +46,7 @@ export default function RootLayout() {
           <Outlet context={{ openMessage }} />
         </Content>
 
-        <Footer style={{ textAlign: 'center' }}>Skuy Hotels - Anwar Production ©2023 with Ant Design</Footer>
+        <Footer style={{ textAlign: 'center' }}>Skuy Hotels - Anwar Production ©2024 with Ant Design</Footer>
       </Layout>
     </Layout>
   )

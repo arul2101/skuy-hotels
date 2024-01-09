@@ -9,25 +9,23 @@ export default function CreateUserForm() {
   const { openMessage } = useOutletContext();
 
   const onSubmit = (values) => {
-    // const request = {
-    //   email: values.email,
-    //   password: values.password,
-    //   full_name: values.full_name
-    // }
+    const request = {
+      email: values.email,
+      password: values.password,
+      full_name: values.full_name
+    }
 
-    // signup(request, {
-    //   onSettled: () => {
-    //     form.resetFields();
-    //   },
-    //   onSuccess: () => {
-    //     openMessage("success", "Success registered user, Please Verify Your Email!");
-    //   },
-    //   onError: () => {
-    //     openMessage("error", "Failed registered user!");
-    //   }
-    // });
-
-    openMessage("error", "Sorry, this feature is disable for demo app!")
+    signup(request, {
+      onSettled: () => {
+        form.resetFields();
+      },
+      onSuccess: () => {
+        openMessage("success", "Success registered user, Please Verify Your Email!");
+      },
+      onError: () => {
+        openMessage("error", "Failed registered user!");
+      }
+    });
   }
 
   return (
